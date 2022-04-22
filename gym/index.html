@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>AKASH FITNESS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/logo.jpg">
+    <style>
+        /* body section  */
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('img/bg.jpg');
+            color: white;
+            font-family: 'Baloo Tamma 2', cursive;
+        }
+
+        /* body section end  */
+
+        /* left section  */
+        .left {
+            /* border: 2px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 25px;
+            top: 20px;
+        }
+
+        .left img {
+            width: 65px;
+
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        /* left section end */
+
+        /* mid section */
+        .mid {
+            /* border: 2px solid green; */
+            display: block;
+            width: 40%;
+            margin: 20px auto;
+        }
+
+        .navbar {
+            list-style-type: none;
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 18px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 35px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: #ef3f49;
+        }
+
+        /* mid section end */
+
+        /* right section  */
+        .right {
+            right: 25px;
+            top: 20px;
+            /* border: 2px solid navy; */
+            position: absolute;
+            display: inline-block;
+        }
+
+        .btn {
+            background-color: black;
+            color: white;
+            margin: 0 9px;
+            padding: 10px 17px;
+            border-radius: 15px;
+            font-family: 'Baloo Tamma 2', cursive;
+        }
+
+        .btn:hover {
+            background-color: #ef3f49;
+            cursor: pointer;
+        }
+
+        /* right section end */
+
+        /* container section  */
+        .container {
+            border: 2px solid white;
+            width: 35%;
+            margin: 107px 34px;
+            border-radius: 32px;
+            padding: 65px 65px;
+
+
+        }
+        .container h2{
+            text-align: center;
+            font-family: 'Baloo Tamma 2', cursive;
+        }
+
+        .form-group input {
+            display: block;
+            padding: 7px;
+            margin: 15px auto;
+            font-size: 15px;
+            width: 250px;
+            text-align: center;
+            border-radius: 5px;
+            font-family: 'Baloo Tamma 2';
+        }
+
+        .container button{
+           display: block;
+           width: 57%;
+           margin: auto;
+        }
+        /* container section ends  */
+    </style>
+</head>
+
+<body>
+    <!-- header section  -->
+    <header class="header">
+        <div class="left">
+            <img src="img/logo.jpg" alt="logo">
+            <div>FITNESS</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gym</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Conatct us</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="btn">Call us</button><button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <!-- header section end -->
+
+    <div class="container">
+        <h2>Join best bengali gym of deoria </h2>
+        <form action="index.html">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your age" required>
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Mob no" required>
+            </div>
+            <button class="btn">Sumbit</button>
+        </form>
+    </div>
+</body>
+
+</html>
